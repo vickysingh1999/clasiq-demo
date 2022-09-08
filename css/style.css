@@ -1,0 +1,344 @@
+@import "bootstrap.css";
+@import "all.css";
+@import "arimo-web-fonts.css";
+@import "roboto.css";
+
+body {
+    margin: 0;
+    font-family: 'Arimo';
+    margin-bottom: 200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/*header section start*/
+.header-nav {
+    box-shadow: 0 0 5px #ccc;
+    padding: 15px 0px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-2 {
+    text-align: left;
+    /*    padding: 0;*/
+}
+
+.logo-img {
+    max-width: 100px;
+}
+
+/*
+.togler-1 {
+    width: 150px;
+    display: none;
+}
+*/
+
+.header-icon {
+    font-size: 30px;
+    display: none;
+}
+
+.header-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-a {
+    padding: 20px 10px;
+    color: #000000;
+    font-weight: 500;
+    position: relative;
+    transition: all 1s ease;
+}
+
+.header-a:hover {
+    color: #FAA001;
+}
+
+.mega-menu {
+    position: absolute;
+    top: 70px;
+    left: 20%;
+    right: 65%;
+    display: none;
+    text-align: left;
+    padding: 15px;
+    background-color: white;
+    box-shadow: 0 0 5px #ccc;
+}
+
+.header-li:hover .mega-menu {
+    display: block;
+}
+
+.mega-menu a {
+    color: #252525;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+
+.mega-menu a:hover {
+    color: #FAA714;
+}
+
+.form-main {
+    /*
+display: flex;
+justify-content: center;
+align-items: center;
+*/
+}
+
+.form-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #E3E7EB;
+    width: 180px;
+    padding: 8px 20px;
+    border-radius: 30px;
+}
+
+.search-icon {
+    color: #CACBCA;
+    padding: 0px 5px;
+}
+
+.form-input {
+    width: 137px;
+    border: none;
+    outline: none;
+}
+
+.button-div {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button-a {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #faa001;
+    color: #fff;
+    font-weight: 600;
+    height: 44px;
+    line-height: 22px;
+    border: 1px solid #faa001;
+    transition: all 0.4s ease;
+}
+
+.button-a:hover {
+    border: 1px solid #faa001;
+    background-color: #fff;
+    color: #faa001;
+}
+
+/*header section end*/
+
+/*color section start*/
+.color-box {
+    background-color: #FAA001;
+    text-align: center;
+}
+
+.color-box p {
+    color: #070502;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*color section end*/
+
+/*banner car box start*/
+
+.banner-container-fluid {
+    background-image: url(../img/banner-img.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 500px;
+    background-size: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -18px;
+}
+
+
+.banner-text h2 {
+    max-width: 490px;
+    font-family: 'Roboto';
+    font-size: 37px;
+    color: #212429;
+    font-weight: 600;
+    margin: 15px 0px 10px 0px;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.banner-text p {
+    font-size: 15px;
+    color: #212830;
+    font-weight: 500;
+}
+
+.banner-icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.banner-icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #FAA001;
+    color: white;
+    margin-right: -35px;
+    transition: all 1s ease;
+    padding-left: 5px;
+}
+
+.banner-icon a:hover {
+    background-color: white;
+    color: #FAA001;
+    box-shadow: 0px 0px 15px #FAA001;
+}
+
+/*banner car box end*/
+
+/*icon section start*/
+.icon-12 h4 {
+    color: #212429;
+    font-family: 'Roboto';
+    font-weight: 700;
+}
+
+/*icon section end*/
+
+
+
+
+/*section car group start*/
+
+/*
+.car-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.car-group h1 {
+    font-family: 'Roboto';
+    color: #212529;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.car-group a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    background-color: rgba(250, 160, 1, 0.06);
+    border: 1px solid #faa001;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 1s ease;
+}
+
+.car-group a:hover {
+    background-color: rgba(250, 160, 1, 1);
+    color: #fafafa;
+}
+
+.car-img-box {
+    position: relative;
+}
+
+.car-span-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    background-color: aqua;
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    color: #44444A;
+}
+
+.car-box-1 {
+    width: 100%;
+    display: inline-block;
+}
+*/
+
+/*section car group end*/
+
+
+
+
+
+
+/*@import url(media-quarie.css);*/
+
+@media screen and (max-width: 1100px) {
+    .header-a {
+        padding: 20px 6px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .header-7 {
+        display: none;
+    }
+
+    .button-div {
+        width: 28%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-2 {
+        max-width: 170px;
+    }
+
+    .button-div {
+        width: 38%;
+    }
+}
