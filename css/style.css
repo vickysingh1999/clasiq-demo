@@ -7,6 +7,7 @@ body {
     margin: 0;
     font-family: 'Arimo';
     margin-bottom: 200px;
+    height: 1000px;
 }
 * {
     box-sizing: border-box;
@@ -161,7 +162,7 @@ align-items: center;
     background-repeat: no-repeat;
     background-position: right;
     height: 500px;
-    background-size: 800px;
+    background-size: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,13 +187,11 @@ align-items: center;
     font-weight: 500;
 }
 
-.banner-icon {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.banner-icon a {
+.banner-play-icon {
+     position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,13 +205,15 @@ align-items: center;
     color: white;
     margin-right: -35px;
     transition: all 1s ease;
-    padding-left: 5px;
 }
 
-.banner-icon a:hover {
+.banner-play-icon:hover {
     background-color: white;
     color: #FAA001;
     box-shadow: 0px 0px 15px #FAA001;
+}
+.signup{
+    
 }
 
 /*banner car box end*/

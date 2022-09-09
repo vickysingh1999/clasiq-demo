@@ -11,14 +11,13 @@
 
 <body>
     <!--header section start-->
+
     <div class=" header-nav">
         <div class="container">
             <div class="row header-row">
                 <div class="col-md-1 header-2">
                     <img src="img/logo.png" alt="vikas" class="logo-img">
                 </div>
-  
-
                 <div class="col-md-7 header-7 ">
                     <ul class="header-ul">
                         <li class="header-li"><a href="#" class="header-a">VIEW LIVE AUCTIONS</a>
@@ -51,10 +50,15 @@
 
             </div>
         </div>
+        <div class="signup d-none">ninja sign up</div>
+        <div class="login d-none">ninja login</div>
     </div>
     <!--header section end-->
-    <div class="signup d-none">ninja sign up</div>
-    <div class="login d-none">ninja login</div>
+
+     <!-- <div class="signup d-none">ninja sign up</div>
+    <div class="login d-none">ninja login</div> -->
+
+
     <!--color section srart-->
     <div class="container-fluid color-box">
         <p>For help call clasiq at (888) 469 1335</p>
@@ -65,13 +69,14 @@
 
     <div class="container-fluid banner-container-fluid">
         <div class="container">
-            <div class="row">
-                <div class="col-md-5 banner-text">
+            <div class="row position-relative">
+
+                <div class="col-md-6 banner-text">
+                    <a href="#" class="banner-play-icon "><i class="fa-solid fa-play"></i></a>
                     <p>List on Sunday, self on Monday</p>
                     <h2>An all-new, truly independent classic car aution experience</h2>
                     <p>Bulit By Community, For The Community</p>
                 </div>
-                <div class="col-md-1 banner-icon"><a href="#"><i class="fa-solid fa-play"></i></a> </div>
                 <div class="col-md-6">vikas</div>
             </div>
         </div>
@@ -137,11 +142,11 @@
 
     <script src="js/jquery.js"></script>
     <script>
-        $(document).ready(function() {
-            $("#sign_up").click(function() {
+        $(document).ready(function () {
+            $("#sign_up").click(function () {
                 $('.signup').removeClass('d-none')
             })
-            $("#login").click(function() {
+            $("#login").click(function () {
                 $('.login').removeClass('d-none')
             })
         })
