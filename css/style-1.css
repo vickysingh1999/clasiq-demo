@@ -1,0 +1,137 @@
+@import "bootstrap.css";
+@import "all.css";
+@import "arimo-web-fonts.css";
+@import "roboto.css";
+
+body {
+    margin: 0;
+    font-family: 'Arimo';
+    margin-bottom: 200px;
+    height: 1000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.header-img {
+    width: 216px;
+}
+
+.popup-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-input {
+    width: 582px;
+    border-radius: 0px;
+    font-size: 13px;
+    position: relative;
+}
+
+.header-span i {
+    font-size: 20px;
+    position: absolute;
+    top: 20px;
+    left: 65%;
+}
+
+.button-a-1 {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #faa001;
+    color: #fff;
+    font-weight: 600;
+    height: 44px;
+    line-height: 22px;
+    border: 1px solid #faa001;
+    transition: all 0.4s ease;
+}
+
+.button-a-1:hover {
+    border: 1px solid #faa001;
+    background-color: #fff;
+    color: #faa001;
+}
+
+.popup-icon {
+    color: #FAA001;
+    font-size: 22px;
+    margin-left: 8px;
+    position: relative;
+}
+
+.popup-icon-1 {
+    position: absolute;
+    top: 19px;
+    right: 140px;
+    height: 17px;
+    width: 17px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-ul-box {
+    margin-top: 10px;
+}
+
+.popup-ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-ul li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 1s ease;
+}
+
+.popup-ul li a:hover {
+    color: #FAA001;
+}
+
+.popup-hr {
+    color: #784D00;
+    opacity: 1;
+    border: 2px solid #764C00;
+    margin-left: -13px;
+    margin-right: -12px;
+}
+
+.popup-12 {
+    max-width: 1322px;
+    margin: auto;
+}
+
+.popup-ul-fluid {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popup-ul-fluid li a {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
