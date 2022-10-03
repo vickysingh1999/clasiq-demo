@@ -135,43 +135,39 @@ a {
     font-size: 13px;
     font-weight: 600;
 }
+
 /* .slick-img-box{
     display: flex;
     justify-content: center;
     align-items: center;
 } */
-.slick-container{
+.slick-container {
     position: relative;
 }
-.slick-img::before{
-    content: "";
+
+
+.prev-arrow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: -100px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../img/vicky-logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 2;
-    cursor: pointer;
+    z-index: 1;
+    background-color: white;
+    border: none;
+    left: -25px;
+    top: 115px;
+    width: 0px;
+    text-align: center;
 }
-.slick-img::after{
-    content: "";
+
+.next-arrow {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    right: -100px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../img/vicky-logo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 2;
-    cursor: pointer;
+    z-index: 1;
+    background-color: white;
+    border: none;
+    right: -25px;
+    top: 115px;
+    width: 0px;
 }
-.slick-img-img{
+
+.slick-img-img {
     width: 96%;
     margin: auto;
 }

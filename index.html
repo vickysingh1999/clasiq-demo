@@ -2,15 +2,29 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--    <meta name="viewport" content="width=device-width, intial-scale=1.0">-->
     <title>Bootstrap</title>
+    <!-- <link rel="stylesheet" href="http://127.0.0.1:5500/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div><p>vikas kumar kargwal</p></div>
+    <div class="alert-msg">
+        <p class="wow animate__animated animate__heartBeat animate__infinite">This site is not responsive  in mobile</p>
+    </div>
+    
     <!--header section start -->
 
     <div class=" header-nav">
@@ -54,7 +68,7 @@
     </div>
     <!--header section end-->
 
-     <!-- <div class="signup d-none">ninja sign up</div>
+    <!-- <div class="signup d-none">ninja sign up</div>
     <div class="login d-none">ninja login</div> -->
 
 
@@ -66,11 +80,11 @@
 
     <!--banner car box start-->
 
-    <div class="container-fluid banner-container-fluid">
+    <div class="container-fluid banner-container-fluid wow animate__animated animate__backInRight">
         <div class="container">
             <div class="row position-relative">
 
-                <div class="col-md-6 banner-text">
+                <div class="col-md-6 banner-text ">
                     <a href="#" class="banner-play-icon "><i class="fa-solid fa-play"></i></a>
                     <p>List on Sunday, self on Monday</p>
                     <h2>An all-new, truly independent classic car aution experience</h2>
@@ -88,30 +102,32 @@
         <div class="container ">
             <div class="row">
                 <div class="col-md-12  icon-12">
-                    <h4>How it works</h4>
+                    <h4 class="wow animate__animated animate__fadeInLeftBig ">How it works</h4>
                 </div>
                 <div class="col-md-4 icon-4">
                     <div>
-                        <img src="/img/icon-1-img.png">
+                        <img src="/img/icon-1-img.png" class="wow animate__animated animate__bounceIn">
                     </div>
-                    <div class="">
+                    <div class="wow animate__animated animate__fadeInDown">
                         <p>Advertising free Experience</p>
                     </div>
                 </div>
                 <div class="col-md-4 icon-4">
                     <div>
-                        <img src="/img/icon-2-img.png">
+                        <img src="/img/icon-2-img.png" class="wow animate__animated animate__bounceIn">
                     </div>
                     <div>
-                        <p>Free Pre-Purchase inspection from an independent shop</p>
+                        <p class="wow animate__animated animate__fadeInDown">Free Pre-Purchase inspection from an
+                            independent shop</p>
                     </div>
                 </div>
                 <div class="col-md-4 icon-4">
                     <div>
-                        <img src="/img/icon-1-img.png">
+                        <img src="/img/icon-1-img.png" class="wow animate__animated animate__bounceIn">
                     </div>
                     <div>
-                        <p> Free secure Payment Process Protects your funds </p>
+                        <p class="wow animate__animated animate__fadeInDown"> Free secure Payment Process Protects your
+                            funds </p>
                     </div>
                 </div>
             </div>
@@ -123,249 +139,344 @@
 
 
     <!--section car group start-->
-    
+
     <div class="container-fluid">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 car-group ">
-                    <h1>Live Auctions</h1>
-                    <a href="">View All Completed Auctions</a>
+                    <h1 class="wow animate__animated animate__fadeInTopLeft">Live Auctions</h1>
+                    <a href="" class="wow animate__animated animate__fadeInTopRight">View All Completed Auctions</a>
                 </div>
 
 
-    <!--car box 1 start-->
-                <div class="col-md-6">
+                <!--car box 1 start-->
+                <div class="col-md-6 wow animate__animated animate__fadeOut">
                     <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-                    <div class="car-img-box">
-                        <a href=""><img src="img/car-box-1.jpeg" class="car-box-1"></a>
-                        <span class="car-span-1">Reserve</span>
-                        <span class="car-span-2"><a href="#" class="car-span-a">
-                            <i class="fa-regular fa-heart"></i>
-                        </a></span>
-                    </div>
-                    <div class="border car-box-overlay">
-                        <div class="col-md-6 car-box-6">
-                            <strong>Current Bid</strong>
-                            <p>$ 24,0000</p>
-                            <span class="car-box-6-span"></span>
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-1.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
                         </div>
-                        <div class="col-md-6 car-box-6">
-                            <strong>Current Bid</strong>
-                            <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
                         </div>
                     </div>
-                    <div class="car-box-text">
-                    <p>1970 Pontiac Trans AM</p>
                 </div>
-                    <div class="car-box-text-1">
-                    <p>Reduilt 400ci engine with a 5-speed manual </p>
+                <!--car box 1 end-->
+
+                <!--car box 2 start -->
+                <div class="col-md-6 wow animate__animated animate__flash">
+                    <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-2.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
+                        </div>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                        </div>
                     </div>
-                    <div class=" car-box-text-2">
-                    <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                </div>
+                <!--car box 2 end -->
+
+                <!--car box 3 start -->
+                <div class="col-md-6 mt-4 wow animate__animated animate__slideOutLeft">
+                    <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-3.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
+                        </div>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                        </div>
                     </div>
                 </div>
+                <!--car box 3 end-->
+
+                <!--car box 4 start-->
+                <div class="col-md-6 mt-4 wow animate__animated animate__slideOutRight">
+                    <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-4.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
+                        </div>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                        </div>
+                    </div>
                 </div>
-    <!--car box 1 end-->
+                <!--car box 4 end-->
 
-    <!--car box 2 start -->
-    <div class="col-md-6">
-        <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-        <div class="car-img-box">
-            <a href=""><img src="img/car-box-2.jpeg" class="car-box-1"></a>
-            <span class="car-span-1">Reserve</span>
-            <span class="car-span-2"><a href="#" class="car-span-a">
-                <i class="fa-regular fa-heart"></i>
-            </a></span>
-        </div>
-        <div class="border car-box-overlay">
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p>$ 24,0000</p>
-                <span class="car-box-6-span"></span>
-            </div>
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
-            </div>
-        </div>
-        <div class="car-box-text">
-        <p>1970 Pontiac Trans AM</p>
-    </div>
-        <div class="car-box-text-1">
-        <p>Reduilt 400ci engine with a 5-speed manual </p>
-        </div>
-        <div class=" car-box-text-2">
-        <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
-        </div>
-    </div>
-    </div>
-    <!--car box 2 end -->
+                <!--car box 5 start -->
+                <div class="col-md-6 mt-4 wow animate__animated animate__wobble">
+                    <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-5.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
+                        </div>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                        </div>
+                    </div>
+                </div>
+                <!--car box 5 end -->
 
-    <!--car box 3 start -->
-    <div class="col-md-6 mt-4">
-        <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-        <div class="car-img-box">
-            <a href=""><img src="img/car-box-3.jpeg" class="car-box-1"></a>
-            <span class="car-span-1">Reserve</span>
-            <span class="car-span-2"><a href="#" class="car-span-a">
-                <i class="fa-regular fa-heart"></i>
-            </a></span>
-        </div>
-        <div class="border car-box-overlay">
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p>$ 24,0000</p>
-                <span class="car-box-6-span"></span>
-            </div>
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
-            </div>
-        </div>
-        <div class="car-box-text">
-        <p>1970 Pontiac Trans AM</p>
-    </div>
-        <div class="car-box-text-1">
-        <p>Reduilt 400ci engine with a 5-speed manual </p>
-        </div>
-        <div class=" car-box-text-2">
-        <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
-        </div>
-    </div>
-    </div>
-    <!--car box 3 end-->
+                <!--car box 6 start -->
+                <div class="col-md-6 mt-4 wow animate__animated animate__jello">
+                    <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
+                        <div class="car-img-box">
+                            <a href=""><img src="img/car-box-6.jpeg" class="car-box-1"></a>
+                            <span class="car-span-1">Reserve</span>
+                            <span class="car-span-2"><a href="#" class="car-span-a">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a></span>
+                        </div>
+                        <div class="border car-box-overlay">
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p>$ 24,0000</p>
+                                <span class="car-box-6-span"></span>
+                            </div>
+                            <div class="col-md-6 car-box-6">
+                                <strong>Current Bid</strong>
+                                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
+                            </div>
+                        </div>
+                        <div class="car-box-text">
+                            <p>1970 Pontiac Trans AM</p>
+                        </div>
+                        <div class="car-box-text-1">
+                            <p>Reduilt 400ci engine with a 5-speed manual </p>
+                        </div>
+                        <div class=" car-box-text-2">
+                            <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
+                        </div>
+                    </div>
+                </div>
+                <!--car box 6 end -->
 
-     <!--car box 4 start-->
-     <div class="col-md-6 mt-4">
-        <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-        <div class="car-img-box">
-            <a href=""><img src="img/car-box-4.jpeg" class="car-box-1"></a>
-            <span class="car-span-1">Reserve</span>
-            <span class="car-span-2"><a href="#" class="car-span-a">
-                <i class="fa-regular fa-heart"></i>
-            </a></span>
-        </div>
-        <div class="border car-box-overlay">
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p>$ 24,0000</p>
-                <span class="car-box-6-span"></span>
-            </div>
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
-            </div>
-        </div>
-        <div class="car-box-text">
-        <p>1970 Pontiac Trans AM</p>
-    </div>
-        <div class="car-box-text-1">
-        <p>Reduilt 400ci engine with a 5-speed manual </p>
-        </div>
-        <div class=" car-box-text-2">
-        <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
-        </div>
-    </div>
-    </div>
-     <!--car box 4 end-->
-
-     <!--car box 5 start -->
-     <div class="col-md-6 mt-4">
-        <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-        <div class="car-img-box">
-            <a href=""><img src="img/car-box-5.jpeg" class="car-box-1"></a>
-            <span class="car-span-1">Reserve</span>
-            <span class="car-span-2"><a href="#" class="car-span-a">
-                <i class="fa-regular fa-heart"></i>
-            </a></span>
-        </div>
-        <div class="border car-box-overlay">
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p>$ 24,0000</p>
-                <span class="car-box-6-span"></span>
-            </div>
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
-            </div>
-        </div>
-        <div class="car-box-text">
-        <p>1970 Pontiac Trans AM</p>
-    </div>
-        <div class="car-box-text-1">
-        <p>Reduilt 400ci engine with a 5-speed manual </p>
-        </div>
-        <div class=" car-box-text-2">
-        <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
-        </div>
-    </div>
-    </div>
-     <!--car box 5 end -->
-
-     <!--car box 6 start -->
-     <div class="col-md-6 mt-4">
-        <div class="border" style="border-radius: 10px;padding-bottom: 30px;">
-        <div class="car-img-box">
-            <a href=""><img src="img/car-box-6.jpeg" class="car-box-1"></a>
-            <span class="car-span-1">Reserve</span>
-            <span class="car-span-2"><a href="#" class="car-span-a">
-                <i class="fa-regular fa-heart"></i>
-            </a></span>
-        </div>
-        <div class="border car-box-overlay">
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p>$ 24,0000</p>
-                <span class="car-box-6-span"></span>
-            </div>
-            <div class="col-md-6 car-box-6">
-                <strong>Current Bid</strong>
-                <p> <span><i class="fa-regular fa-clock"></i></span> 17 second </p>
-            </div>
-        </div>
-        <div class="car-box-text">
-        <p>1970 Pontiac Trans AM</p>
-    </div>
-        <div class="car-box-text-1">
-        <p>Reduilt 400ci engine with a 5-speed manual </p>
-        </div>
-        <div class=" car-box-text-2">
-        <p> <span><i class="fa-solid fa-location-dot"></i></span> Los Angels, ca. 91302</p>
-        </div>
-    </div>
-    </div>
-     <!--car box 6 end -->
-
-     <div class="col-md-12 car-box-group ">
-        <a href="">View All Live Auctions</a>
-    </div>
+                <div class="col-md-12 car-box-group ">
+                    <a href="">View All Live Auctions</a>
+                </div>
             </div>
         </div>
     </div>
     <!--section car group end-->
 
-<!--section card start-->
-<div class="container-fluid card-container-fluid">
-    <div class="container">
-        <div class="row position-relative">
-<div class="col-md-6"></div>
-            <!-- <div class="col-md-6 card-text">
+    <!--section card start-->
+    <div class="container-fluid card-container-fluid wow animate__animated animate__rubberBand">
+        <div class="container">
+            <div class="row position-relative">
+                <div class="col-md-6"></div>
+                <!-- <div class="col-md-6 card-text">
                 <a href="#" class="card-play-icon "><i class="fa-solid fa-play"></i></a>
                 <p>List on Sunday, self on Monday</p>
                 <h2>An all-new, truly independent classic car aution experience</h2>
                 <p>Bulit By Community, For The Community</p>
             </div> -->
-            <div class="col-md-6 card-text">
-                <a href="#" class="card-play-icon "><i class="fa-solid fa-play"></i></a>
-                <p>List on Sunday, self on Monday</p>
-                <h2>An all-new, truly independent classic car aution experience</h2>
-                <p>Bulit By Community, For The Community</p>
+                <div class="col-md-6 card-text">
+                    <a href="#" class="card-play-icon "><i class="fa-solid fa-play"></i></a>
+                    <p>List on Sunday, self on Monday</p>
+                    <h2>An all-new, truly independent classic car aution experience</h2>
+                    <p>Bulit By Community, For The Community</p>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!--section card end -->
+    <!--section card end -->
+
+    <!--icon section start-->
+    <div class="container-fluid mt-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-12  icon-12 text-center">
+                    <h4 class="wow animate__animated animate__fadeInLeftBig ">What makes clasiq auctions the most
+                        trusted?</h4>
+                </div>
+                <div class="col-md-4 icon-4 mt-5">
+                    <div>
+                        <img src="/img/icon-1-img.png" class="wow animate__animated animate__bounceIn">
+                    </div>
+                    <div class="wow animate__animated animate__fadeInDown">
+                        <p>Advertising free Experience</p>
+                    </div>
+                </div>
+                <div class="col-md-4 icon-4 mt-5">
+                    <div>
+                        <img src="/img/icon-2-img.png" class="wow animate__animated animate__bounceIn">
+                    </div>
+                    <div>
+                        <p class="wow animate__animated animate__fadeInDown">Free Pre-Purchase inspection from an
+                            independent shop</p>
+                    </div>
+                </div>
+                <div class="col-md-4 icon-4 mt-5">
+                    <div>
+                        <img src="/img/icon-1-img.png" class="wow animate__animated animate__bounceIn">
+                    </div>
+                    <div>
+                        <p class="wow animate__animated animate__fadeInDown"> Free secure Payment Process Protects your
+                            funds </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--icon section end-->
+
+    <!--section our customers start-->
+
+    <div class="container-fluid banner-container-fluid-1 wow animate__animated animate__backInRight">
+        <div class="container">
+            <div class="row position-relative">
+
+                <div class="col-md-6 banner-text-1 ">
+
+                    <h2> Our customers love what we do </h2>
+                </div>
+
+                <div class="col-md-6 our-customers-main overflow-hidden ">
+                    <div id="our-customers-slider-bar ">
+
+                        <div class=" our-customers-slider-box ">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quae alias omnis aperiam
+                                eaque obcaecati numquam. Rerum dicta, natus, nemo numquam nisi aliquid voluptate est
+                                consequuntur.</p>
+                            <h4 class="m-0">vikas kumar</h4>
+                        </div>
+<!--
+                        <div class=" our-customers-slider-box">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque quae alias omnis aperiam
+                                eaque obcaecati numquam. Rerum dicta, natus, nemo numquam nisi aliquid voluptate est
+                                consequuntur.</p>
+                            <h4 class="m-0">vikas kumar</h4>
+                        </div>
+-->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--section our customers end-->
+
+    <!--section find out start-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 find-out-head">
+                <h2>FIND OUT WHAT YOUR CAR IS WORTH!</h2>
+            </div>
+            <div class="col-md-12 find-out-text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque voluptates rerum, est nostrum obcaecati, suscipit expedita voluptas totam cum corporis architecto voluptate a vikas kuamr.</p>
+            </div>
+            <div class="col-md-12 find-out-button">
+                <button type="button">VALUE YOUR CAR</button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--sectio find out end-->
 
 
 
@@ -377,7 +488,7 @@
     <div class="signup d-none">
         <div class="container popup-container">
             <div class="row popup-row">
-                <div class="col-md-5"> 
+                <div class="col-md-5">
                     <div class="popup-sign-in">
                         <div class="col-md-10 popup-h1-div">
                             <h1 class="popup-h1">ALREADY HAVE AN ACCOUNT?</h1>
@@ -389,65 +500,92 @@
                 </div>
                 <div class="col-md-7">
                     <div class="popup-sign-up">
-                    <div class="popup-img-div">
-                        <img src="/img/popup-img.png" alt="vikas" class="popup-img">
+                        <div class="popup-img-div">
+                            <img src="/img/popup-img.png" alt="vikas" class="popup-img">
+                        </div>
+                        <h4>Sign Up</h4>
+                        <form action="" class="popup-form">
+                            <div class="col-md-10">
+                                <input type="email" placeholder="Email address" class="form-control popup-input">
+                            </div>
+
+                            <div class="col-md-10">
+                                <input type="text" placeholder="Phone (to contact if you win)" class="form-control popup-input">
+                            </div>
+
+                            <div class="col-md-10">
+                                <input type="text" placeholder=" Username (what users see when you did, and comment)" class="form-control popup-input">
+                            </div>
+
+                            <div class="col-md-10">
+                                <input type="password" placeholder="Password" class="form-control popup-input">
+                            </div>
+
+                            <div class="col-md-10">
+                                <input type="password" placeholder="confirm Password" class="form-control popup-input">
+                            </div>
+
+                            <div class="col-md-10 popup-checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <label for="checkbox" class="popup-label">I accept the Terms & Conditions and Privacy
+                                    Policy.</label>
+                            </div>
+
+                            <div class="col-md-10 popup-checkbox2">
+                                <input type="checkbox" id="checkbox1">
+                                <label for="checkbox1" class="popup-label">Subscribe to the Clasiq weekly email</label>
+                            </div>
+                            <div class="col-md-10">
+                                <button type="button" class="popup-button">SIGN UP</button>
+                            </div>
+                        </form>
                     </div>
-                    <h4>Sign Up</h4>
-                    <form action="" class="popup-form">
-                        <div class="col-md-10">
-                            <input type="email" placeholder="Email address" class="form-control popup-input">
-                        </div>
-                        
-                        <div class="col-md-10">
-                            <input type="text" placeholder="Phone (to contact if you win)" class="form-control popup-input">
-                        </div>
-
-                        <div class="col-md-10">
-                            <input type="text" placeholder=" Username (what users see when you did, and comment)" class="form-control popup-input">
-                        </div>
-
-                        <div class="col-md-10">
-                            <input type="password" placeholder="Password" class="form-control popup-input">
-                        </div>
-
-                        <div class="col-md-10">
-                            <input type="password" placeholder="confirm Password" class="form-control popup-input">
-                        </div>
-                        
-                        <div class="col-md-10 popup-checkbox">
-                            <input type="checkbox" id="checkbox">
-                            <label for="checkbox" class="popup-label">I accept the Terms & Conditions and Privacy Policy.</label>
-                        </div>
-
-                        <div class="col-md-10 popup-checkbox2">
-                            <input type="checkbox" id="checkbox1">
-                            <label for="checkbox1" class="popup-label">Subscribe to the Clasiq weekly email</label>
-                        </div>
-                        <div class="col-md-10">
-                            <button type="button" class="popup-button">SIGN UP</button>
-                        </div>
-                    </form>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="login d-none">ninja login</div>
 
     <script src="js/jquery.js"></script>
     <script src="js/wow.js"></script>
+    <script src="js/slick.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#sign_up").click(function () {
+        $(document).ready(function() {
+            $("#sign_up").click(function() {
                 $('.signup').removeClass('d-none')
             })
-            $("#login").click(function () {
+            $("#login").click(function() {
                 $('.login').removeClass('d-none')
             })
+
+            $('#our-customers-slider-bar').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000
+            });
+            //wow js animation start//
+            new WOW().init();
+            //wow js animation end//
         })
 
-    </script>
-</body>
+        //wow js animation start//
+        //new WOW().init();
+        //wow js animation end//
 
-</html>
+        //our customers section slider start//
+
+        // $('#our-customers-slider-bar').slick({
+        //   slidesToShow: 1,
+        //   slidesToScroll: 1,
+        //   autoplay: true,
+        //   autoplaySpeed: 2000,
+        //   prevArrow:"<button type='button' class='slick-prev-1 pull-left'></button>",
+        //   nextArrow:"<button type='button' class='slick-next-1 pull-right'></button>",
+        // });
+
+
+        //our customers section slider end//
+    </script>
+</body></html>
